@@ -1,3 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #eee;
+}
+
+.busca{
+  display: flex;
+  justify-content: center;
+}
+
+.busca input{
+  border-width: 100px;
+  border: rgb(247, 247, 247);
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.odas{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  border: solid 10px rgb(255, 162, 74);
+  border-radius: 100px;
+}
+
+.farofadentro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.farofape{
+  display: flex;
+  background: rgb(35,112,12);  
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.farofape p{
+  color: rgb(190, 190, 190);
+}
+
+.farofinha h1{
+  font-size: 50px;
+  align-items: center;
+}
+
+.logo img{
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  gap: 30px;
+}
+
+.post {
+  background-color: rgb(255, 162, 74);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  border-radius: 100px;
+}
+
+.post p{
+  margin-top: 10px;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post img {
+  max-width: 100%
+}
+
+.post-content{
+  padding: 20px;
+  margin: 10px;
+}
+
 .App {
   text-align: center;
 }
